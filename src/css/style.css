@@ -1,13 +1,167 @@
+
+/* set di animazioni */
+@-webkit-keyframes rotate {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(-10deg);
+  }
+  }
+
+  @-moz-keyframes rotate {
+    from {
+      transform: rotate(10deg);
+    }
+    to {
+      transform: rotate(-10deg);
+    }
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(10deg);
+      }
+      to {
+        transform: rotate(-10deg);
+      }
+      }
+
+@-webkit-keyframes leftright {
+    0%   {left: -200vh;}
+    100%  {left: 200vh;}
+  }
+  @-moz-keyframes leftright {
+      0%   {left: -200vh;}
+      100%  {left: 200vh;}
+  }
+  @keyframes leftright {
+      0%   {left: -200vh;}
+      100%  {left: 200vh;}
+  }
+
+  @-webkit-keyframes rightleft {
+      0%   {left: 200vh;}
+      100%  {left: -200vh;}
+    }
+    @-moz-keyframes rightleft {
+        0%   {left: 200vh;}
+        100%  {left: -200vh;}
+    }
+    @keyframes rightleft {
+        0%   {left: 200vh;}
+        100%  {left: -200vh;}
+}
+/* id delle animazioni */
+#vinile1 {
+  z-index: 10;
+position: absolute;
+  width: 20vw;
+  top: 150vw;
+  animation: rotate .5s ease-in-out alternate infinite;-webkit-animation: rotate .5s ease-in-out alternate infinite; -moz-animation: rotate .5s ease-in-out alternate infinite;
+
+  }
+
+  #rightleft {
+    position: absolute;
+    animation: rightleft 8s linear infinite;-webkit-animation: rightleft 8s linear infinite; -moz-animation: rightleft 8s linear infinite;
+
+    }
+    #leftright {
+      position: absolute;
+      animation: leftright 8s linear infinite;-webkit-animation: leftright 8s linear infinite; -moz-animation: leftright 8s linear infinite;
+
+      }
+    #vinile2 {
+      z-index: 10;
+      position: absolute;
+      width: 20vw;
+      top: 280vw;
+      animation: rotate .5s ease-in-out alternate infinite;-webkit-animation: rotate .5s ease-in-out alternate infinite; -moz-animation: rotate .5s ease-in-out alternate infinite;
+
+      }
+
+      .absolute {
+        position: absolute;
+      }
+.container-circle {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin:0 auto;
+  border-radius: 100%;
+}
+
+.container-circle img {
+  height:300px;
+  width: auto;
+  margin-left: -50px;
+}
+
+#pop {
+  height: 586px;
+    margin-top: -140px;
+}
 .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
       }
 
+      .btn-outline-secondary {
+          color: #ffffff;
+          border-color: #ffffff;
+      }
+.mymarginbottom {
+  margin-bottom: 30px;
+}
+.mt5, .my-5 {
+  margin-top: 2rem!important;
+}
+
+h2 {
+  margin-top:50px;
+}
+.inner img {
+  margin: 20px;
+  width: 40%;
+  height: 40%;
+
+}
+.rounded-circle {
+  width: 304px;
+    height: 304px;
+}
+
+p {
+  margin-bottom: 3rem;
+}
+.br50 {
+  overflow: hidden;
+  border-radius: 50%;
+}
+.col-lg-4 img {
+  overflow: hidden;
+}
+.col-lg-4 {
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
   font-size: 3.5rem;
   }
+
+
+  .btn {
+    padding: 1.375rem 2.75rem;
+    font-size: 1.5rem;
+  }
+
+  .col-md-5 {
+    max-width: 66.666667%;
+  }
 }
+
+
 .sitebg {
   background-image: url("https://images.unsplash.com/photo-1468164016595-6108e4c60c8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-repeat: no-repeat;
@@ -29,6 +183,7 @@
 .center2 {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 #uno {
