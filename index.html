@@ -5,9 +5,11 @@
     <!-- viewport necessaria per una visualizzazione ottimale tramite mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
     <!-- Titolo della pagina -->
-    <title>Vinili</title>
+    <title>Vynil Maniacs</title>
     <meta name="description" content="Landing page">
     <meta name="author" content="theBabr27">
+    <link rel="icon" href="src/img/icons/LogoMiniIcon.png">
+
     <!-- normalize css cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <!-- il foglio di stile di swiper -->
@@ -26,11 +28,27 @@
 
 <body>
 
+  <div id="rightleft">
+    <img id="vinile1" src="src/img/bg/red.png" alt="">
+  </div>
+  <div id="leftright">
+    <img id="vinile2" src="src/img/bg/yel.png" alt="">
+  </div>
   <div class="sitebg position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+
+
+    <header class="masthead mb-auto">
+      <div class="inner">
+        <img src="src/img/icons/Logo2.svg" alt="">
+        <nav class="nav nav-masthead justify-content-center">
+
+        </nav>
+      </div>
+    </header>
   <div class="white col-md-5 p-lg-5 mx-auto my-5">
     <h1 class="display-4 font-weight-normal">Da noi è tutta un altra musica!</h1>
     <p class="lead font-weight-normal">L'intera storia della musica raccolta tutta insieme. Scegli tra centinaia di vinili a disposizione. Musica di ogni epoca e genere.</p>
-    <a class="btn btn-outline-secondary" href="#">Vediamoli</a>
+    <a class="btn btn-light" href="#">Acquista</a>
   </div>
   <div class="product-device shadow-sm d-none d-md-block"></div>
   <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -40,146 +58,161 @@
 
 <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="center row">
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
+      <!-- Three columns of text below the carousel -->
+      <div class="center row">
+
+      <div class="col">
+        <div class="container-circle">
+          <img src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+        </div>
         <h2>Rock</h2>
-        <p>I classici del rock, anni 70, 80, 90, con pezzi che hanno fatto la storia.</p>
-        </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
+        <p class="lead font-weight-normal">I classici del rock, anni 70, 80, 90, con pezzi che hanno fatto la storia.</p>
+
+      </div>
+
+      <div class="col">
+        <div class="container-circle">
+          <img id="pop" src="https://images.unsplash.com/photo-1541689592655-f5f52825a3b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=602&q=80">
+        </div>
         <h2>Pop</h2>
-        <p>Re e regine del pop sono tutti qui! Da Michael Jackson a Madonna.</p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect fill="#777" width="100%" height="100%"></rect><text fill="#777" dy=".3em" x="50%" y="50%">140x140</text></svg>
+        <p class="lead font-weight-normal">Re e regine del pop sono tutti qui! Da Michael Jackson a Madonna.</p>
+
+      </div>
+
+      <div class="col">
+        <div class="container-circle">
+          <img src="https://images.unsplash.com/photo-1513105684046-eb80d2acee8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+        </div>
         <h2>Reggae</h2>
-        <p>Bob Marley, ovviamente ma non solo. Straordinari performer e sonorità uniche.</p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+        <p class="lead font-weight-normal">Bob Marley, ovviamente ma non solo. Straordinari performer e sonorità uniche.</p>
+
+      </div>
+      </div>
+
     <div class="center2">
 
-    <p><a class="btn btn-secondary" href="#" role="button">Vediamoli tutti</a></p>
-  </div>
+      <p><a class="btn btn-dark" href="#" role="button">Fammi scegliere il genere</a></p>
+    </div>
 
 
     <!-- START THE FEATURETTES -->
 
-
     <hr class="featurette-divider">
+
     <div class="divider"></div>
 
     <div class="row featurette">
+
       <div class="col-md-7">
         <h2 class="featurette-heading">Perchè il vinile? <span class="text-muted">Ti sorprenderà...</span></h2>
-        <p class="lead">Il primo disco in vinile della storia venne introdotto sul mercato negli Stati Uniti il 21 giugno 1948. Questo disco rappresentava l’evoluzione del precedente disco a 78 giri, lanciato sul mercato alla fine del 1800.</p>
+        <p class="lead font-weight-normal">Il primo disco in vinile della storia venne introdotto sul mercato negli Stati Uniti il 21 giugno 1948. Questo disco rappresentava l’evoluzione del precedente disco a 78 giri, lanciato sul mercato alla fine del 1800.</p>
       </div>
+
       <div class="col-md-5">
         <svg id="uno" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"></svg>
       </div>
+
     </div>
 
     <hr class="featurette-divider">
+
     <div class="divider"></div>
 
     <div class="row featurette">
+
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Il ritorno del vinile. <span class="text-muted">Non solo nostalgia.</span></h2>
-        <p class="lead">Un giro di affari di circa 218 milioni di dollari solo in america. Di fronte a questa tendenza, vale la pena domandarsi quali sono i motivi che hanno spinto le persone a tornare al vinile.</p>
+        <p class="lead font-weight-normal">Un giro di affari di circa 218 milioni di dollari solo in america. Di fronte a questa tendenza, vale la pena domandarsi quali sono i motivi che hanno spinto le persone a tornare al vinile.</p>
       </div>
+
       <div class="col-md-5 order-md-1">
         <svg id="due" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"></svg>
+
     </div>
     </div>
 
     <hr class="featurette-divider">
+
     <div class="divider"></div>
 
     <div class="row featurette">
+
       <div class="col-md-7">
         <h2 class="featurette-heading">E per finire, il paradiso del DJ. <span class="text-muted">Vastissima selezione di piatti e consolle.</span></h2>
-        <p class="lead">Rendi i tuoi service davvero unici, con remix di brani, effetti e musiche di ogni tipo, davvero per tutti i gusti.</p>
+        <p class="lead font-weight-normal">Rendi i tuoi service davvero unici, con remix di brani, effetti e musiche di ogni tipo, davvero per tutti i gusti.</p>
       </div>
+
       <div class="col-md-5">
         <svg id="tre" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title></svg>
       </div>
+
     </div>
 
     <div class="divider"></div>
 
-        <hr class="featurette-divider">
+    <hr class="featurette-divider">
+
+    <div class="divider"></div>
+
+
     <!-- /END THE FEATURETTES -->
 
 
   <div id="quattro" class="jumbotron">
-    <div class="white container">
-      <h1 class="display-3">Non hai un giradischi?</h1>
-      <p>Nessun problema! Dal design moderno o classico, troverai senz'altro l'oggetto che ti manca per gustare la musica in tutta la sua meraviglia.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Scegliamo</a></p>
-    </div>
+
+    <div class="white container text-center">
+      <h1 class="display-4 font-weight-normal">Non hai un giradischi?</h1>
+      <p class="lead font-weight-normal">Nessun problema! Dal design moderno o classico, troverai senz'altro l'oggetto che ti manca per gustare la musica in tutta la sua meraviglia.</p>
+
+          <div class="center2">
+
+            <p><a class="btn btn-light" href="#" role="button">Fammi scegliere il mio giradischi</a></p>
+          </div></div>
+
   </div>
 
   <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <h1 class="display-4">Allora? Hai deciso?</h1>
-  <p class="lead">Prenota subito! Per te sconto esclusivo di benvenuto su tutti gli articoli!</p>
-</div>
+    <h1 class="display-4 font-weight-normal">Che fai ancora li?</h1>
+    <p class="lead font-weight-normal"><span style="font-weight: bold">Vieni subito</span> oppure registrati! Per te sconto esclusivo di benvenuto su tutti gli articoli!</p>
+  </div>
+
+  <form class="">
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="lead font-weight-normal">Nome</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mario">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="lead font-weight-normal">Cognome</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Rossi">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="lead font-weight-normal">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="mario.rossi@mail.com">
+          </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="lead font-weight-normal">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Accetto la vostra politica sulla privacy</label>
+    </div>
+        <div class="center2">
+          <p><a class="btn btn-dark" href="#" role="button">Invia</a></p>
+        </div>
+
+  </form>
 
 <div class="container">
-  <div class="card-deck mb-3 text-center">
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Free</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>10 users included</li>
-          <li>2 GB of storage</li>
-          <li>Email support</li>
-          <li>Help center access</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-      </div>
-    </div>
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Pro</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>20 users included</li>
-          <li>10 GB of storage</li>
-          <li>Priority email support</li>
-          <li>Help center access</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-      </div>
-    </div>
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">Enterprise</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>30 users included</li>
-          <li>15 GB of storage</li>
-          <li>Phone and email support</li>
-          <li>Help center access</li>
-        </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
-      </div>
-    </div>
-  </div>
 
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="/docs/4.2/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+
+      <div class="col-12 col-md text-center">
+        <img class="mb-2" src="src/img/icons/LogoMiniIcon.png" alt="" width="24" height="24">
         <small class="d-block mb-3 text-muted">© 2017-2018</small>
       </div>
+
       <div class="col-6 col-md">
         <h5>Features</h5>
         <ul class="list-unstyled text-small">
@@ -191,6 +224,7 @@
           <li><a class="text-muted" href="#">Last time</a></li>
         </ul>
       </div>
+
       <div class="col-6 col-md">
         <h5>Resources</h5>
         <ul class="list-unstyled text-small">
@@ -200,6 +234,7 @@
           <li><a class="text-muted" href="#">Final resource</a></li>
         </ul>
       </div>
+
       <div class="col-6 col-md">
         <h5>About</h5>
         <ul class="list-unstyled text-small">
@@ -209,11 +244,16 @@
           <li><a class="text-muted" href="#">Terms</a></li>
         </ul>
       </div>
+
     </div>
+
   </footer>
+
 </div>
 
 </div>
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
