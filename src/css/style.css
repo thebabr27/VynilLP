@@ -82,7 +82,7 @@ position: absolute;
       }
 
 body {
-  overflow-x: auto;
+  overflow-y: hidden;
 }
       .absolute {
         position: absolute;
