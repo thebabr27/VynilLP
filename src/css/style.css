@@ -81,6 +81,9 @@ position: absolute;
 
       }
 
+body {
+  overflow-x: auto;
+}
       .absolute {
         position: absolute;
       }
