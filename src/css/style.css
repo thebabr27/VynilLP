@@ -83,6 +83,7 @@ position: absolute;
 
 body {
   overflow-x: hidden;
+  overflow-y: scroll;
 }
       .absolute {
         position: absolute;
