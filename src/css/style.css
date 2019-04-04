@@ -169,16 +169,20 @@ p {
   margin-bottom: 3rem;
 }
 .br50 {
-  overflow: hidden;
+  overflow-x: hidden;
   border-radius: 50%;
 }
 .col-lg-4 img {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .col-lg-4 {
 }
 
 @media (min-width: 768px) {
+	
+  html, body {
+    overflow-x: auto;
+  }
   .bd-placeholder-img-lg {
   font-size: 3.5rem;
   }
