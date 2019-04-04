@@ -181,8 +181,9 @@ p {
 @media (min-width: 768px) {
 	
   html, body {
-    overflow-x: auto;
+    overflow-x: visible;
   }
+	
   .bd-placeholder-img-lg {
   font-size: 3.5rem;
   }
