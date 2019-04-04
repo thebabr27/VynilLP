@@ -54,7 +54,7 @@
 }
 
 #myprova {
-	
+
 	z-index: 10;
 	position: relative;
 	width: 100%;
@@ -73,12 +73,12 @@ overflow-x: hidden;
   #rightleft {
     position: absolute;
     animation: rightleft 8s linear infinite;-webkit-animation: rightleft 8s linear infinite; -moz-animation: rightleft 8s linear infinite;
-	
+
     }
     #leftright {
       position: absolute;
       animation: leftright 8s linear infinite;-webkit-animation: leftright 8s linear infinite; -moz-animation: leftright 8s linear infinite;
-	
+
       }
     #vinile2 {
       z-index: 10;
@@ -87,7 +87,7 @@ overflow-x: hidden;
       top: 280vw;
       animation: rotate .5s ease-in-out alternate infinite;-webkit-animation: rotate .5s ease-in-out alternate infinite; -moz-animation: rotate .5s ease-in-out alternate infinite;
 	overflow-x: hidden;
-  
+
       }
 
     #vinile3 {
@@ -97,7 +97,7 @@ overflow-x: hidden;
       top: 420vw;
       animation: rotate .5s ease-in-out alternate infinite;-webkit-animation: rotate .5s ease-in-out alternate infinite; -moz-animation: rotate .5s ease-in-out alternate infinite;
 	overflow-x: hidden;
-  
+
       }
       #vinile4 {
       z-index: 10;
@@ -106,16 +106,19 @@ overflow-x: hidden;
       top: 660vw;
       animation: rotate .5s ease-in-out alternate infinite;-webkit-animation: rotate .5s ease-in-out alternate infinite; -moz-animation: rotate .5s ease-in-out alternate infinite;
       overflow-x: hidden;
-      
+
       }
-html, body {
+
+html {
+    overflow-x: hidden;
+}
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
 
       .absolute {
         position: absolute;
-        overflow-x: hidden;
       }
 .container-circle {
   width: 300px;
@@ -169,21 +172,24 @@ p {
   margin-bottom: 3rem;
 }
 .br50 {
-  overflow-x: hidden;
+  overflow: hidden;
   border-radius: 50%;
 }
 .col-lg-4 img {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .col-lg-4 {
 }
 
 @media (min-width: 768px) {
-	
-  html, body {
-    overflow-x: visible;
+
+  html {
+      overflow-x: visible;
   }
-	
+  body {
+      max-width: 100%;
+      height: 100%;
+  }
   .bd-placeholder-img-lg {
   font-size: 3.5rem;
   }
